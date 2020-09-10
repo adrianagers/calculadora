@@ -1,0 +1,96 @@
+.container {
+    width: 26%;
+    margin-left: 35%;
+    height: 430px;
+    background: linear-gradient(45deg, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 14%, rgba(117,106,117,1) 97%, rgba(254,254,254,1) 100%);
+    padding: 1%;
+    border-radius: 15px;
+    box-shadow: 6px 5px rgb(66, 64, 64);
+}
+.mariquita{
+    position: fixed;
+    width: 15%;
+    height: 200px;
+    margin-top: -10px;
+    margin-left: 1%;
+    position: relative;
+    cursor: pointer;
+}
+body{
+    background-image: url(./imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h2{
+    color: white;
+    margin-top: -400px;
+    margin-left: 4%;
+}
+.column {
+    display: flex;
+    /* flex-direction: column; */
+    align-content: flex-end;
+    justify-content: center;
+    width: 20%;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    margin-left: 13px;
+    }
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-end;
+    width: 80%; 
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+
+.btn-number {
+    width: 30%;
+    font-size: 25px;
+    margin-left: 2%;
+    margin-bottom: 4%;
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0.544);
+    color: white;
+    border:transparent;
+    border-radius: 10px;
+}
+
+.btn-operator {
+    width: 100%;
+    font-size: 30px;
+    margin: 10% 4%;
+    height:55px ;
+    background-color: rgb(12, 75, 152); 
+    color: white;
+    border-color: transparent;
+    border-radius: 10px;
+   
+}
+.btnmensaje{
+    background-color: transparent;
+}
+
+#data {
+    width: 90%;
+    height: 70px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 4.4%;
+    font-size: 20px;
+    color: rgb(251, 248, 248);
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 13px;
+}
+.calculator-data{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
