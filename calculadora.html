@@ -13,50 +13,45 @@
 
     <h1 style="text-align: center; color:white;"> Calculadora </h1>
 
-<section>
-    <!-- <img src="./imagenes/mariquita.gif" alt="mariquita" class="mariquita"> -->
-
-      
-
-
-</section>
+    <section>
+        <!-- <img src="./imagenes/mariquita.gif" alt="mariquita" class="mariquita"> -->
+    </section>
     <div class="container">
-            <div class="calculator-info">
-                <input type="text" id="data" disabled />
+        <div class="calculator-info">
+            <input type="text" id="data" disabled />
+        </div>
+        <div class=" fila calculadora ">
+            <div class="fila">
+                <input type="button" class="bton1" value="1" onclick="pintarNumero(this.value)">
+                <input type="button" class="bton1" value="2" onclick="pintarNumero(this.value)">
+                <input type="button" class="bton1" value="3" onclick="pintarNumero(this.value)">
+                <input type="button" class="bton1" value="4" onclick="pintarNumero(this.value)">
+                <input type="button" class="bton1" value="5" onclick="pintarNumero(this.value)">
+                <input type="button" class="bton1" value="6" onclick="pintarNumero(this.value)">
+                <input type="button" class="bton1" value="7" onclick="pintarNumero(this.value)">
+                <input type="button" class="bton1" value="8" onclick="pintarNumero(this.value)">
+                <input type="button" class="bton1" value="9" onclick="pintarNumero(this.value)">
+                <input type="button" class="bton1" value="C" onclick="LimpiarDatos(this.value)">
+                <input type="button" class="bton1" value="0" onclick="pintarNumero(this.value)">
+                <input type="button" class="bton1" value="=" onclick="respDatos()">
             </div>
-            <div class="calculator-data row">
-                <div class="row">
-                    <input type="button" class="btn-number" value="1" onclick="pintarNumero(this.value)">
-                    <input type="button" class="btn-number" value="2" onclick="pintarNumero(this.value)">
-                    <input type="button" class="btn-number" value="3" onclick="pintarNumero(this.value)">
-                    <input type="button" class="btn-number" value="4" onclick="pintarNumero(this.value)">
-                    <input type="button" class="btn-number" value="5" onclick="pintarNumero(this.value)">
-                    <input type="button" class="btn-number" value="6" onclick="pintarNumero(this.value)">
-                    <input type="button" class="btn-number" value="7" onclick="pintarNumero(this.value)">
-                    <input type="button" class="btn-number" value="8" onclick="pintarNumero(this.value)">
-                    <input type="button" class="btn-number" value="9" onclick="pintarNumero(this.value)">
-                    <input type="button" class="btn-number" value="C" onclick="LimpiarDatos(this.value)">
-                    <input type="button" class="btn-number" value="0" onclick="pintarNumero(this.value)">
-                    <input type="button" class="btn-number" value="=" onclick="respDatos()">
-                </div>
 
-                <div class="column" style="width: 15%; text-align: center; ">
-                    <input type="button" class="btn-operator" value="+" onclick="pintaroperador(this.value)">
-                    <input type="button" class="btn-operator" value="-" onclick="pintaroperador(this.value)">
-                    <input type="button" class="btn-operator" value="*" onclick="pintaroperador(this.value)">
-                    <input type="button" class="btn-operator" value="/" onclick="pintaroperador(this.value)">
-                </div>
-
+            <div class="columna" style="width: 15%; text-align: center; ">
+                <input type="button" class="bton2" value="+" onclick="pintaroperador(this.value)">
+                <input type="button" class="bton2" value="-" onclick="pintaroperador(this.value)">
+                <input type="button" class="bton2" value="*" onclick="pintaroperador(this.value)">
+                <input type="button" class="bton2" value="/" onclick="pintaroperador(this.value)">
             </div>
+
+        </div>
     </div>
 
     <h2 class="h2">Que dia es ?</h2>
 
     <img class="mariquita" src="./imagenes/dia duda.gif" alt="pensando" onclick="mostraMensaje() ">
-  
-    
+
+
     <script src="./calculadora.js"></script>
 </body>
 
-</html>
 </html>
