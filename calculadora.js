@@ -151,25 +151,11 @@ switch(DiaQDeseas){
    swal(" Lo sentimos","lo que haz ingresado no es un dia de la semana ","error");
 }
 }
-swal({
-  title: "Good job!",
-  text: "You clicked the button!",
-  icon: "success",
-});
 
-swal({
-  title: "Are you sure?",
-  text: "Once deleted, you will not be able to recover this imaginary file!",
-  icon: "warning",
-  buttons: true,
-  dangerMode: true,
-})
+let diasAño= prompt("ingrese el numero que desees y te dire el año ");
 
-
-// let diasAño= prompt("ingrese el numero que desees y te dire el año ");
-
-// if(diasAño == 6 ){
-//   alert("este mes es junio");
-// }else{
-//  alert("nuevamente ingrese un numero")
-// }
+if(diasAño == 6 ){
+  alert("este mes es junio");
+}else{
+ alert("nuevamente ingrese un numero")
+}
